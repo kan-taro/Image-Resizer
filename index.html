@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Image Resizer – High‑Quality</title>
+<script src='https://cdn.tailwindcss.com'></script>
+<!-- PICA library -->
+<script src='https://cdn.jsdelivr.net/npm/pica@8.0.0/dist/pica.min.js' defer></script>
+</head>
+
+<body class='bg-gradient-to-r from-teal-400 to-blue-500 min-h-screen flex items-center justify-center'>
+  <div class='bg-white rounded-lg shadow-xl p-6 w-full max-w-md mx-auto'>
+    <h1 class='text-2xl font-bold mb-4 text-center'>Image Resizer – High Quality</h1>
+    <input type='file' id='imageInput' accept='.jpg,.jpeg,.png,.gif' class='mb-4 w-full'/>
+    <div id='previewContainer' class='mb-4 hidden'>
+      <canvas id='previewCanvas' class='w-full border'></canvas>
+      <p id='sizeInfo' class='mt-2 text-sm text-gray-700'></p>
+    </div>
+    <label for='scaleRange' class='block mb-1 font-medium'>Scale: <span id='scaleValue'>100%</span> (<span id='pixelSize'></span>)</label>
+    <input type='range' id='scaleRange' min='10' max='200' value='100' step='5' class='w-full'/>
+    <button id='downloadBtn' class='mt-4 w-full bg-teal-600 text-white py-2 rounded hover:bg-teal-700 disabled:opacity-50' disabled>Download Resized Image</button>
+  </div>
+
+<script defer src='script.js'></script>
+</body>
+</html>
