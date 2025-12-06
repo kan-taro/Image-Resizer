@@ -1,10 +1,10 @@
-# Image‑Resizing
+# IMG‑resizing
 
-**Image‑Resizing** はブラウザだけで動作する軽量な画像リサイズツールです。  
+**IMG-resizing** はブラウザだけで動作する軽量な画像リサイズツールです。  
 ファイルをアップロードしてもサーバーに送信されることはなく、すべてローカルのメモリ上で完結します。
 
-> 👉 **デモ（GitHub Pages）**: <https://kan-taro.github.io/Image-Resizer/>  
-> 👉 **ソースコード (GitHub)**: <https://github.com/kan-taro/Image-Resizer/>
+> 👉 **デモ（GitHub Pages）**: <https://kan-taro.github.io/IMG-resizing/>  
+> 👉 **ソースコード (GitHub)**: <https://github.com/kan-taro/IMG-resizing/>
 
 ---
 
@@ -21,10 +21,10 @@
 ---
 
 ## 🚀 インストール・実行
-1. https://kan-taro.github.io/Image-Resizer/ にアクセス。
+1. https://kan-taro.github.io/IMG-resizing/ にアクセス。
 または
 2. リポジトリをクローンまたは ZIP をダウンロードして展開。  
    ```bash
-   git clone https://github.com/kan-taro/Image-Resizer.git
-   cd Image-Resizer
+   git clone https://github.com/kan-taro/IMG-resizing.git
+   cd IMG-resizing
 
