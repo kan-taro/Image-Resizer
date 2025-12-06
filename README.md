@@ -49,6 +49,11 @@ TrimScale は **クライアントサイドのみ** で動作する Web アプ�
 
 ## インストール / クイックスタート
 
+以下のサイトで使用できます。
+https://kan-taro.github.io/TrimScale/
+
+
+またはローカルで使いたいとき
 1. このリポジトリをクローン／ダウンロードし、任意のローカルフォルダーに置く。
 2. `/size3/index.html` をブラウザで開く（Chrome/Edge/Safari/Firefox 推奨）。
 
